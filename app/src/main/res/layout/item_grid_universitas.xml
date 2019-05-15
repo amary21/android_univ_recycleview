@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_item_logo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="1dp"
+        android:scaleType="centerCrop"
+        tools:src="@color/colorAccent" />
+    <TextView
+        android:id="@+id/tv_namauniv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Universitas Gajah Mada"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Favorite"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/btn_official"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="Official"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+</LinearLayout>

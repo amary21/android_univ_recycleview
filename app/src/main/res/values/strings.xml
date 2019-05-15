@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Universitas di Indonesia</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Share</string>
+    <string name="official">Official</string>
+    <string name="detail">Peringkat universitas terbaik di Indonesia  masih dipegang Universitas Gajah Mada atau biasa disingkat UGM. Kampus UGM terletak di Yogyakarta dan sudah didirikan sejak tahun 1949. UGM memang konsisten menempati posisi 1 daftar universitas terbaik di Indonesia. Dengan statusnya sebagai PTN.</string>
+</resources>
